@@ -1,0 +1,101 @@
+
+#page {
+  background-color: #52d2d2;
+  margin-top: 80px;
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.content{
+    background-color: #fff;
+    padding-left: 100px;
+    
+}
+
+.heading{
+    color:#007bff;
+    text-align: center;
+}
+
+.image {
+    padding: 20px;
+}
+
+#img1{
+    position: relative;
+    height: 100%;
+    width:100%;
+    border-radius: 8px;
+}
+
+.image-item{
+    height: 200px;
+    width: 600px;
+    border-radius: 8px;
+
+}
+
+.image-gallery{
+    /* height: 150px; */
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+
+}
+
+.align{
+    padding-left: 20px;
+}
+
+.center{
+     display: block;
+     text-align: center;
+     margin-top: 40px;
+     margin-bottom: 15px;
+}
+
+.center .btn{
+    display: inline-block;
+    background-color: #28a745;
+    color:#fff;
+    padding: 15px 25px;
+    font-weight:800px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.admissions-table{
+    background-color:#f8f9fa;
+    width:100%;
+    height: 150px;
+    border-collapse: collaps;
+    border: 2px solid rgb(185, 184, 184);
+}
+
+thead{
+    background-color: #d9d9d9;
+    height: 38px ;
+}
+
+.admissions-table tbody tr:nth-child(2n) {
+    background-color: #f2f2f2;
+}
+
+.video-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.course-video{
+    height:500px;
+    width:800px;
+}
+
+#footer{
+    width: 1600px;
+}
