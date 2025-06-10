@@ -11,11 +11,11 @@ const Home = ()=> {
               <div class="content">
                 <div className="image">
                   <img id="img1" src='Images/clgimage.png'/>
-                  {/* <div >
-                    <h1>Welcome to Vivekanand College!</h1>
-                    <p>Your journey to excellence starts here.</p>
-                    <a class="btn hero-btn" href="/admissions" data-discover="true">Apply Now!</a> 
-                  </div> */}
+                  <div className='title'>
+                    <h1><b>Welcome to Vivekanand College! </b></h1>
+                    <p><b>Your journey to excellence starts here.</b></p>
+                    <a class="btn1" href="/admission" data-discover="true">Apply Now!</a> 
+                  </div>
                 </div>
                 <p class="align"> **Vivekanand College** is a premier educational institution dedicated to fostering academic excellence, innovation, and holistic development. Established in [Year of Establishment, e.g., 1980], we have proudly served generations of students, empowering them to achieve their full potential.</p>
                 <p class="align"> At Vivekanand College, we believe in a vibrant learning environment that extends beyond textbooks. Our state-of-the-art facilities, experienced faculty, and diverse student community create a unique ecosystem where curiosity thrives and future leaders are shaped.</p>
@@ -48,6 +48,11 @@ const Home = ()=> {
                   <a class="btn" href="Admission"> Explore corses </a>
                 </div>
               </div>
+            </div>
+            <div className='chatbot '>
+                    <button className='chat-btn'>
+                      <img alt="chat icon " src='Images/chatimage.png'/>
+                    </button>
             </div>
             <Footer/>
           </div>

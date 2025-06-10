@@ -8,7 +8,7 @@ const Header = () =>{
                 <a id="clgname" > Vivekanand College </a>
             </div>
             <nav className="navbar">
-                <Link to='/home' className="nav-item"> Home </Link>
+                <Link to='/' className="nav-item"> Home </Link>
                 <Link to='/about' className="nav-item"> About</Link>
                 <Link to='/courses' className="nav-item">Courses</Link>
                 <Link to='/contact' className="nav-item">Contact</Link>

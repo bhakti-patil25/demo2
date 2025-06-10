@@ -7,7 +7,7 @@ const Contact=()=>{
     return (
         <div>
             <Header/>
-            <div id="page">
+            <div id="page-contact">
             <div class="content">
                 <h1 class="heading" >Contact Us</h1>
                 <p>
@@ -46,7 +46,7 @@ const Contact=()=>{
                 </p>
                 <h2>Find Us on the Map</h2>
                 <p>
-                    [You can embed a Google Map here later using an iframe or a React map library.]
+                    <a href="https://maps.google.com/?q=Vivekanand+College">View on Google Maps</a>
                     <br />
                 </p>
                 <h2>Send Us a Message</h2>
@@ -54,6 +54,11 @@ const Contact=()=>{
                     [A contact form with fields for Name, Email, Subject, Message can be added here.]
                 </p>
                 </div>
+                </div>
+                <div className='chatbot '>
+                    <button className='chat-btn'>
+                      <img alt="chat icon " src='Images/chatimage.png'/>
+                    </button>
                 </div>
             <div id="footer">
             <Footer/> 

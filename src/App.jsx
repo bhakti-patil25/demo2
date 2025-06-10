@@ -7,10 +7,10 @@ import Admission from './pages/AdmissionPage'
 
 const App = () => {
   return (
-    <div className='main'>
+    <div >
         <BrowserRouter>
           <Routes>
-            <Route path="/home" element={<Home/>}/>
+            <Route path="/" element={<Home/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/courses" element={<Course/>}/>
             <Route path="/contact" element={<Contact/>}/>
