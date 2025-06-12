@@ -58,11 +58,11 @@ const Admission =()=>{
                         <p> For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <a href="/courses" data-discover="true">Courses page</a> or <a href="/contact" data-discover="true">Contact us</a> directly.</p>
                     </div>
                 </div>
-                <div className='chatbot '>
+                {/* <div className='chatbot '>
                     <button className='chat-btn'>
                       <img alt="chat icon " src='Images/chatimage.png'/>
                     </button>
-                </div>
+                </div> */}
             <Footer/>
         </div>
     )

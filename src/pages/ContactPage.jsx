@@ -55,11 +55,11 @@ const Contact=()=>{
                 </p>
                 </div>
                 </div>
-                <div className='chatbot '>
+                {/* <div className='chatbot '>
                     <button className='chat-btn'>
                       <img alt="chat icon " src='Images/chatimage.png'/>
                     </button>
-                </div>
+                </div> */}
             <div id="footer">
             <Footer/> 
             </div>   

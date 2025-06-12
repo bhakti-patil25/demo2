@@ -122,11 +122,11 @@ const Course =()=>{
                     </div>
                 </div>
             </div>
-            <div className='chatbot '>
+            {/* <div className='chatbot '>
                     <button className='chat-btn'>
                       <img alt="chat icon " src='Images/chatimage.png'/>
                     </button>
-            </div>
+            </div> */}
         <Footer/>
         </div>
 

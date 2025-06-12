@@ -16,7 +16,7 @@
 #page-contact {
   background-color: #52d2d2;
   display:flex;
-  width:1320px;
+  width:1440px;
   justify-content: center;
   align-items: flex-start;
   padding: 100px;
@@ -126,7 +126,7 @@ thead{
     height:500px;
     width:800px;
 }
-.chatbot {
+/* .chatbot {
     position: fixed;
     right:20px;
     bottom: 20px;
@@ -139,7 +139,7 @@ thead{
     height: 100px;
     display: flex;
     justify-content: center;
-}
+} */
 
 #footer{
     width: 1650px;

@@ -2,13 +2,13 @@
     background-color: #007bff;
     color: #fff;
     height: 80px ;
-    width: 1520px;
+    width: 1480px;
     display:flex;
     align-items: center;
     justify-content: space-between;
     position: fixed;
     top:0%;
-    padding: 15px, 20px ;
+    padding: 15px, 0px ;
     z-index: 999;
 }
 
@@ -27,27 +27,23 @@
 }
 
 #navbar{
-    /* display:inline-block; */
     display: flex;
     justify-content:flex-end;
     padding-left: 20px;
-    /* margin-right: 20px; */
 }
 
 .nav-item{
     color:#fff;
-    /* display: flex; */
-    /* justify-content:flex-end; */
     padding-left:15px ;
     font-size: larger;
-    margin-right: 20px;
+    margin-right: 35px;
 }
 
 .btn{
     display: inline-block;
     background-color: #28a745;
     color:#fff;
-    padding: 15px 25px;
+    /* padding: 15px 20px; */
     font-weight:800px;
     border-radius: 8px;
     font-size: 20px;
