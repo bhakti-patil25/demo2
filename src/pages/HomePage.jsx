@@ -45,15 +45,10 @@ const Home = ()=> {
                 <p class="align">Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
                 <div  class="center" >
                   <p  >Ready to Explore our courses ?</p>
-                  <a class="btn" href="Admission"> Explore corses </a>
+                  <a class="btn" href="/courses"> Explore corses </a>
                 </div>
               </div>
             </div>
-            {/* <div className='chatbot '>
-                    <button className='chat-btn'>
-                      <img alt="chat icon " src='Images/chatimage.png'/>
-                    </button>
-            </div> */}
             <Footer/>
           </div>
     )
