@@ -15,7 +15,7 @@ const App = () => {
   };
   return (
     <>
-    <div>
+    <div className='demo'>
         {/* Your main application content */}
         <DeveloperInfoPopup
           show={showPopup}
