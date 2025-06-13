@@ -5,7 +5,7 @@ import './Style.css'
 import Footer from '../components/Footer/Footer'
 const Home = ()=> {
     return(
-        <div>
+        <div id="main">
             <Header/>
             <div id="page">
               <div class="content">
@@ -20,21 +20,21 @@ const Home = ()=> {
                 <p class="align"> **Vivekanand College** is a premier educational institution dedicated to fostering academic excellence, innovation, and holistic development. Established in [Year of Establishment, e.g., 1980], we have proudly served generations of students, empowering them to achieve their full potential.</p>
                 <p class="align"> At Vivekanand College, we believe in a vibrant learning environment that extends beyond textbooks. Our state-of-the-art facilities, experienced faculty, and diverse student community create a unique ecosystem where curiosity thrives and future leaders are shaped.</p>
                 <h2 class="align"> Why Choose Vivekanand College?</h2>
-                <ul class="content">
+                <ul class="content1">
                   <li>
-                    **Legacy of Excellence:** Decades of commitment to quality education.
+                    <b>Legacy of Excellence:</b> Decades of commitment to quality education.
                   </li>
                   <li>
-                    **Experienced Faculty:** Learn from renowned experts and passionate educators.
+                    <b>Experienced Faculty:</b> Learn from renowned experts and passionate educators.
                   </li>
                   <li>
-                    **Modern Facilities:** Well-equipped labs, expansive library, and comfortable campus.
+                    <b>Modern Facilities:</b> Well-equipped labs, expansive library, and comfortable campus.
                   </li>
                   <li>
-                    **Holistic Development:** Focus on co-curricular activities, sports, and community service.
+                    <b>Holistic Development:</b> Focus on co-curricular activities, sports, and community service.
                   </li>
                   <li>
-                    **Strong Placements:** Excellent career opportunities with leading companies.
+                    <b>Strong Placements:</b> Excellent career opportunities with leading companies.
                   </li>
                 </ul>
                 <h2 class="align" >Campus Life &amp; Facilities</h2>

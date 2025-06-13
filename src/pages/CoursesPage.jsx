@@ -23,7 +23,7 @@ const Course =()=>{
                     <h2>Undergraduate Programs (UG)</h2>
                     <ul>
                         <li>
-                            **Bachelor of Science (B.Sc.)**
+                            <b>Bachelor of Science (B.Sc.)</b>
                             <ul>
                                 <li>
                                     Computer Science (3 years)
@@ -37,7 +37,7 @@ const Course =()=>{
                             </ul>
                         </li>
                         <li>
-                            **Bachelor of Commerce (B.Com)**
+                            <b>Bachelor of Commerce (B.Com)</b>
                             <ul>
                                 <li>
                                     Accounting &amp; Finance (3 years)
@@ -48,7 +48,7 @@ const Course =()=>{
                             </ul>
                         </li>
                         <li>
-                            **Bachelor of Arts (B.A.)**
+                            <b>Bachelor of Arts (B.A.)</b>
                             <ul>
                                 <li>
                                     English Literature (3 years)
@@ -62,7 +62,7 @@ const Course =()=>{
                     <h2>Postgraduate Programs (PG)</h2>
                     <ul>
                         <li>
-                            **Master of Science (M.Sc.)**
+                            <b>Master of Science (M.Sc.)</b>
                             <ul>
                                 <li>
                                     Computer Science (2 years)
@@ -72,10 +72,10 @@ const Course =()=>{
                                 </li>
                             </ul>
                         <li>
-                            **Master of Commerce (M.Com)** (2 years)
+                            <b>Master of Commerce (M.Com)</b>(2 years)
                         </li>
                         <li>
-                            **Master of Arts (M.A.)** (2 years)
+                            <b>Master of Arts (M.A.)</b> (2 years)
                         </li>
                     </li>
                     </ul>

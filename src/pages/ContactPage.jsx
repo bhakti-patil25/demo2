@@ -22,9 +22,9 @@ const Contact=()=>{
                     India
                 </p>
                 <p>
-                    Phone: **+91 12345 67890**
+                    Phone: <b>+91 12345 67890</b>
                     <br />
-                    Email: **info@vivekanandcollege.edu**
+                    Email: <b>info@vivekanandcollege.edu</b>
                     <br />
                     Office Hours: Monday - Friday, 9:00 AM - 5:00 PM IST
                 </p>

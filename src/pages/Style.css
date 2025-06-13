@@ -1,16 +1,25 @@
+#main{
+    overflow:hidden;
+    height:100vh;
+}
+
 #page {
     background-color: #52d2d2;
     display:flex;
     justify-content: center;
     align-items: flex-start;
     padding: 100px;
-
 }
 
 .content{
     background-color: #fff;
     padding-left : 100px;
-       
+    overflow: auto;
+    height:620px;  
+}
+
+.content1{
+    margin-left:25px;
 }
 
 #page-contact {
@@ -36,12 +45,13 @@
     color:#fff ;
     text-align: center;
     width: 90%;
+  
 }
 
-
-
 .image {
+    position: relative;
     padding: 20px;
+    /* overflow: hidden; */
 }
 
 #img1{
@@ -126,20 +136,7 @@ thead{
     height:500px;
     width:800px;
 }
-/* .chatbot {
-    position: fixed;
-    right:20px;
-    bottom: 20px;
-    z-index:1000;
-}
-.chat-btn{
-    background-color: #007bff;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-} */
+
 
 #footer{
     width: 1650px;
